@@ -44,3 +44,5 @@ output:
 08f9f5e HEAD@{5}: commit (initial): Meow
 
 note : before checking out please commit all changes or you wont be able to move to other repo
+
+when you create a file in a branch index it (add it) and commit it the file will be reserved to that specifique branch
