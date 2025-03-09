@@ -45,4 +45,6 @@ output:
 
 note : before checking out please commit all changes or you wont be able to move to other repo
 
-when you create a file in a branch index it (add it) and commit it the file will be reserved to that specifique branch 
+when you create a file in a branch index it (add it) and commit it the file will be reserved to that specifique branch
+
+git merge will allow you to merge a branch with another branch note that this can cause conflicts 
