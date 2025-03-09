@@ -68,4 +68,9 @@ git cherry-pick :  <id_commit> will make a copy of file and transferet to anothe
  Date: Sun Mar 9 22:14:54 2025 +0100
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 khabib
-
+to create an connection with github:
+1 - generate a RSA key using ssh-keygen -t ed25519 -C "jjj544754@gmail.com" // -C you email
+2 - add to github
+3 - ssh git@github.com
+4 - git remote add origin <github ssh link>
+5 - git push -u  main <github ssh link> 
