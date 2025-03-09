@@ -1,2 +1,38 @@
 Initialize a git repo : git init
+to index a file :  git add [file_name]
+to commit saves :  git commit -m "Commit message"
+git ignore file will allow to certain type of files of not being indexed thus not being commited
+git branch will show you which branch you are located in
+example output :
+* master
+git config set user.email "jjj544754@gmail.com"
+git config set user.name "YassineLoussaief"
+this will allow each commit to be saved by users email and user name (they can be anything and everything)
+git branch <name_of_branch> 
+will add a new branch
+output :
+* master
+  yassine
+git checkout <name_of_branch> : allow you to checkout from the current branch and go to the one desired 
+output:
+M	note
+Switched to branch '<name_of_branch>'
 
+git log : allows you check your commit logs in full details
+output :
+
+commit 08f9f5e9b77da601fc3584ed8cce9d8b57e7034c
+Author: Yassine <Yassine@gmail.com>
+Date:   Sun Mar 9 20:06:40 2025 +0100
+
+    Meow
+
+git log has parameters :
+git log --online : shows your logs in one lines statements
+08f9f5e Meow 
+git log --decorate=no : will not show references
+git log --decorate=full : will show commit references in with full prefixes
+git log --decorate=short : will show short formed commit 
+Note : the path shown by decorate=full is where the id is saved
+
+============ ============== ================= =================== ============ 
