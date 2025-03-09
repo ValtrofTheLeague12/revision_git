@@ -34,5 +34,13 @@ git log --decorate=no : will not show references
 git log --decorate=full : will show commit references in with full prefixes
 git log --decorate=short : will show short formed commit 
 Note : the path shown by decorate=full is where the id is saved
+git reflog => will show you all your git actions in the git repository work space
+output:
+7152d2e HEAD@{0}: commit: Yassine
+08f9f5e HEAD@{1}: checkout: moving from yassine to master
+08f9f5e HEAD@{2}: checkout: moving from master to yassine
+08f9f5e HEAD@{3}: checkout: moving from yassine to master
+08f9f5e HEAD@{4}: checkout: moving from master to yassine
+08f9f5e HEAD@{5}: commit (initial): Meow
 
-============ ============== ================= =================== ============ 
+note : before checking out please commit all changes or you wont be able to move to other repo
