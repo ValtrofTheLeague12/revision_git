@@ -62,4 +62,10 @@ index a0a73fa..0000000
 -Loussaief
 -is
 -the best
+git stash :  will save the last commit made by user in cache
+git cherry-pick :  <id_commit> will make a copy of file and transferet to another branch
+[yassine 16c99c9] I WILL SMASH YOU BOIII !!!
+ Date: Sun Mar 9 22:14:54 2025 +0100
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 khabib
 
