@@ -47,4 +47,19 @@ note : before checking out please commit all changes or you wont be able to move
 
 when you create a file in a branch index it (add it) and commit it the file will be reserved to that specifique branch
 
-git merge will allow you to merge a branch with another branch note that this can cause conflicts 
+git merge <name_of_branch> will allow you to merge a branch with another branch note that this can cause conflicts
+
+git diff to know the difference between one branch and another branch:
+output (not all of it)
+
+diff --git a/abc b/abc
+deleted file mode 100644
+index a0a73fa..0000000
+--- a/abc
++++ /dev/null
+@@ -1,4 +0,0 @@
+-Yassine
+-Loussaief
+-is
+-the best
+
